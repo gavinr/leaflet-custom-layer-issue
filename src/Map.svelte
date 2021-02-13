@@ -4,7 +4,7 @@
 
   const CustomLayer = Layer.extend({
     onAdd: function (map) {
-      console.log("CUSTOM LAYER ONADD");
+      // console.log("CUSTOM LAYER ONADD");
       const size = map.getSize();
       console.log("size:", size);
     },
